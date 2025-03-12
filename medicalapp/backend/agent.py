@@ -11,7 +11,7 @@ from livekit.plugins import google
 from dotenv import load_dotenv
 from api import AssistantFnc
 from prompt import WELCOME_MESSAGE, INSTRUCTIONS,LOOKUP_ID_MESSAGE
-
+import os
 
 load_dotenv()
 
